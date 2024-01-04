@@ -13,7 +13,7 @@ Siamkatze is a Python script designed to find and manage broken symbolic links w
 ## Usage
 
 ```bash
-python siamkatze.py [-h] [-r] [-d] directory_path
+python siamkatze.py [-r] [-d] [-v] directory_path
 ```
 
 ### Arguments
@@ -22,11 +22,11 @@ python siamkatze.py [-h] [-r] [-d] directory_path
 
 ### Options
 
-- `-h, --help`: Show the help message and exit.
-
 - `-r, --recursive`: Enable recursive search to find broken symbolic links in subdirectories.
 
 - `-d, --delete`: Enable this option to delete the broken symbolic links found.
+
+- `-v, --verbose`: Enable verbose mode to display additional information.
 
 ## Example
 
